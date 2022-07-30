@@ -1,0 +1,8 @@
+- rstudio:
+  - filetransfer:
+      rstudio:
+        - rstudio.sh
+        - /tmp
+        - true
+  - commands:
+    - sh /tmp/rstudio.sh
